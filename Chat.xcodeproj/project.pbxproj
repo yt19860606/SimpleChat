@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347FFDA12271CEB50052B50D /* ChatListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FFD9A2271CEB40052B50D /* ChatListViewCell.swift */; };
+		347FFDA22271CEB50052B50D /* YTChageEmotionStrTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FFD9B2271CEB40052B50D /* YTChageEmotionStrTool.swift */; };
+		347FFDA32271CEB50052B50D /* YTChatCellFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FFD9C2271CEB40052B50D /* YTChatCellFrame.swift */; };
+		347FFDA42271CEB50052B50D /* YTChatDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FFD9D2271CEB40052B50D /* YTChatDefines.swift */; };
+		347FFDA52271CEB50052B50D /* YTChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FFD9E2271CEB40052B50D /* YTChatMessage.swift */; };
+		347FFDA62271CEB50052B50D /* YTChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FFD9F2271CEB40052B50D /* YTChatMessageCell.swift */; };
+		347FFDA72271CEB50052B50D /* YTTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FFDA02271CEB40052B50D /* YTTextAttachment.swift */; };
 		34C141E62271492D00CC7105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C141E52271492D00CC7105 /* AppDelegate.swift */; };
 		34C141E82271492D00CC7105 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C141E72271492D00CC7105 /* FirstViewController.swift */; };
 		34C141EA2271492D00CC7105 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C141E92271492D00CC7105 /* SecondViewController.swift */; };
 		34C141ED2271492E00CC7105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C141EB2271492E00CC7105 /* Main.storyboard */; };
 		34C141EF2271494500CC7105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C141EE2271494500CC7105 /* Assets.xcassets */; };
 		34C141F22271494500CC7105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C141F02271494500CC7105 /* LaunchScreen.storyboard */; };
+		34C1420222714AD000CC7105 /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C141FB22714AD000CC7105 /* ChatDetailViewController.swift */; };
+		34C1420322714AD000CC7105 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C141FC22714AD000CC7105 /* ChatViewController.swift */; };
+		34C1421222714DED00CC7105 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1421022714DEC00CC7105 /* UIImage+Extension.swift */; };
+		34C1421322714DED00CC7105 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C1421122714DEC00CC7105 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		347FFD9A2271CEB40052B50D /* ChatListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewCell.swift; sourceTree = "<group>"; };
+		347FFD9B2271CEB40052B50D /* YTChageEmotionStrTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTChageEmotionStrTool.swift; sourceTree = "<group>"; };
+		347FFD9C2271CEB40052B50D /* YTChatCellFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTChatCellFrame.swift; sourceTree = "<group>"; };
+		347FFD9D2271CEB40052B50D /* YTChatDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTChatDefines.swift; sourceTree = "<group>"; };
+		347FFD9E2271CEB40052B50D /* YTChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTChatMessage.swift; sourceTree = "<group>"; };
+		347FFD9F2271CEB40052B50D /* YTChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTChatMessageCell.swift; sourceTree = "<group>"; };
+		347FFDA02271CEB40052B50D /* YTTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTTextAttachment.swift; sourceTree = "<group>"; };
 		34C141E22271492D00CC7105 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C141E52271492D00CC7105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34C141E72271492D00CC7105 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +42,10 @@
 		34C141EE2271494500CC7105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34C141F12271494500CC7105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34C141F32271494500CC7105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C141FB22714AD000CC7105 /* ChatDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
+		34C141FC22714AD000CC7105 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		34C1421022714DEC00CC7105 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		34C1421122714DEC00CC7105 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		347FFD992271CEB40052B50D /* ChatViews */ = {
+			isa = PBXGroup;
+			children = (
+				347FFD9A2271CEB40052B50D /* ChatListViewCell.swift */,
+				347FFD9B2271CEB40052B50D /* YTChageEmotionStrTool.swift */,
+				347FFD9C2271CEB40052B50D /* YTChatCellFrame.swift */,
+				347FFD9D2271CEB40052B50D /* YTChatDefines.swift */,
+				347FFD9E2271CEB40052B50D /* YTChatMessage.swift */,
+				347FFD9F2271CEB40052B50D /* YTChatMessageCell.swift */,
+				347FFDA02271CEB40052B50D /* YTTextAttachment.swift */,
+			);
+			name = ChatViews;
+			path = Chat/chatView/ChatViews;
+			sourceTree = SOURCE_ROOT;
+		};
 		34C141D92271492D00CC7105 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +93,7 @@
 		34C141E42271492D00CC7105 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				34C141F922714AD000CC7105 /* chatView */,
 				34C141E52271492D00CC7105 /* AppDelegate.swift */,
 				34C141E72271492D00CC7105 /* FirstViewController.swift */,
 				34C141E92271492D00CC7105 /* SecondViewController.swift */,
@@ -65,6 +103,34 @@
 				34C141F32271494500CC7105 /* Info.plist */,
 			);
 			path = Chat;
+			sourceTree = "<group>";
+		};
+		34C141F922714AD000CC7105 /* chatView */ = {
+			isa = PBXGroup;
+			children = (
+				34C1420F22714DEC00CC7105 /* category */,
+				34C141FA22714AD000CC7105 /* controllers */,
+			);
+			path = chatView;
+			sourceTree = "<group>";
+		};
+		34C141FA22714AD000CC7105 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34C141FB22714AD000CC7105 /* ChatDetailViewController.swift */,
+				34C141FC22714AD000CC7105 /* ChatViewController.swift */,
+				347FFD992271CEB40052B50D /* ChatViews */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		34C1420F22714DEC00CC7105 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				34C1421022714DEC00CC7105 /* UIImage+Extension.swift */,
+				34C1421122714DEC00CC7105 /* UIView+Extension.swift */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +204,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347FFDA52271CEB50052B50D /* YTChatMessage.swift in Sources */,
+				347FFDA12271CEB50052B50D /* ChatListViewCell.swift in Sources */,
+				347FFDA62271CEB50052B50D /* YTChatMessageCell.swift in Sources */,
+				347FFDA42271CEB50052B50D /* YTChatDefines.swift in Sources */,
+				34C1421222714DED00CC7105 /* UIImage+Extension.swift in Sources */,
+				347FFDA22271CEB50052B50D /* YTChageEmotionStrTool.swift in Sources */,
+				347FFDA72271CEB50052B50D /* YTTextAttachment.swift in Sources */,
 				34C141EA2271492D00CC7105 /* SecondViewController.swift in Sources */,
 				34C141E62271492D00CC7105 /* AppDelegate.swift in Sources */,
+				34C1421322714DED00CC7105 /* UIView+Extension.swift in Sources */,
+				347FFDA32271CEB50052B50D /* YTChatCellFrame.swift in Sources */,
 				34C141E82271492D00CC7105 /* FirstViewController.swift in Sources */,
+				34C1420322714AD000CC7105 /* ChatViewController.swift in Sources */,
+				34C1420222714AD000CC7105 /* ChatDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

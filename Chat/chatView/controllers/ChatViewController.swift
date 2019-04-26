@@ -1,17 +1,15 @@
 //
-//  SecondViewController.swift
+//  ChatViewController.swift
 //  Chat
 //
 //  Created by yetao on 2019/4/25.
 //  Copyright © 2019 yetao. All rights reserved.
 //
 
-
-
 import UIKit
 
 
-class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     var chatList:UITableView?
     
@@ -19,17 +17,24 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = BACKGROUND_Color
-
+        
         self.createTableView()
         
+        self.initSomething()
         
-    }    
+    }
     
+    func initSomething() {
+    
+        self.view.backgroundColor = BACKGROUND_Color
+//        self.automaticallyAdjustsScrollViewInsets = false
+    }
+
+   
     func createTableView(){
         
         chatList = UITableView.init(frame: CGRect(x:0,y:64,width:screenW,height:screenH - 108), style: UITableView.Style.plain)
-        
+    
         chatList?.dataSource      = self;
         
         chatList?.backgroundColor = BACKGROUND_Color
@@ -83,7 +88,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         let deleteAction:UITableViewRowAction = UITableViewRowAction.init(style: UITableViewRowAction.Style.default, title: "删除") { (deleteAction, IndexPath) in
-            
+         
             self.rows -= 1
             
             tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
@@ -93,6 +98,8 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
 }
+
+
 
 
 
