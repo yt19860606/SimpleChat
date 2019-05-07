@@ -59,7 +59,7 @@ class YTChatMessageCell: UITableViewCell {
         contentView.addSubview(nameLabel)
         
     }
-    
+    /*只为了测试提交代码*/
     var chatCellFrame:YTChatCellFrame? {
         
         didSet {
